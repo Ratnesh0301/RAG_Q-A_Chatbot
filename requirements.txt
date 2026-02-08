@@ -2,3 +2,8 @@ streamlit
 langchain
 python-dotenv
 langchain_groq
+langchain_openai
+langchain_text_splitters
+langchain_classic
+langchain_core
+langchain_community
