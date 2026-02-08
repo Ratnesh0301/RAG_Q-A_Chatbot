@@ -17,7 +17,7 @@ st.sidebar.title("SETTINGS")
 groq_api_key = st.sidebar.text_input(label="Enter Your GROQ API Key", type="password")
 #groq_api_key = os.getenv("GROQ_API_KEY")
 
-llm = ChatGroq(groq_api_key=groq_api_key, model="llama-3.1-8b-instant")
+llm = ChatGroq(api_key=groq_api_key, model="llama-3.1-8b-instant",streaming=True)
 
 
 prompt = ChatPromptTemplate.from_template(
