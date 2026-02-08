@@ -1,0 +1,3 @@
+streamllit
+langchain
+python-dotenv
